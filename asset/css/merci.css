@@ -1,0 +1,127 @@
+#Calque_1 {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+@font-face {
+    font-family: lfm;
+    src: url(../fonts/Arkhip_font.ttf);
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-repeat: no-repeat;
+    background: #092756;
+    background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -moz-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -moz-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -webkit-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -webkit-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+    background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -o-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -o-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+    background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -ms-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -ms-linear-gradient(-45deg, #670d10 0%, #092756 100%);
+    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), linear-gradient(to bottom, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), linear-gradient(135deg, #670d10 0%, #092756 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756', GradientType=1);
+}
+
+.dl-info {
+    font-family: lfm;
+    color: #fff;
+    text-shadow: #fff 0 0 10px;
+    font-size: 2vmin;
+}
+
+#file-info-dl {
+    margin-bottom: 4%;
+}
+
+#easy {
+    font-family: lfm;
+    color: #fff;
+    text-shadow: #fff 0 0 10px;
+    text-align: center;
+    font-size: 1vmax;
+    text-decoration: underline;
+}
+
+#back-index {
+    font-family: lfm;
+    color: #fff;
+    text-shadow: #fff 0 0 10px;
+    text-align: center;
+    font-size: 1vmax;
+    margin-top: 4%;
+}
+
+h1 {
+    font-family: lfm;
+    color: #fff;
+    text-shadow: #fff 0 0 10px;
+    font-size: 2vmax;
+}
+
+h3 {
+    text-decoration: underline;
+    font-family: lfm;
+    color: #fff;
+    text-shadow: #fff 0 0 10px;
+    font-size: 2vmax;
+}
+
+#copy {
+    color: #fff;
+    text-shadow: #fff 0 0 10px;
+    font-family: lfm;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+}
+
+button {
+    color: #fff;
+    text-shadow: #fff 0 0 10px;
+    font-family: lfm;
+    font-size: 1.9vmax;
+    margin-left: 38%;
+    border-radius: 60px;
+    width: 25%;
+    background: none;
+    border-radius: 60px;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+    line-height: 200%;
+}
+
+button:hover {
+    box-shadow: outset 0px 0px 0px 3px #f7f7f7;
+}
+
+button:hover:after {
+    width: 0%;
+}
+
+#copyright {
+    color: #fff;
+    text-shadow: #fff 0 0 10px;
+    font-family: lfm;
+    font-size: 2vmin;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+}
+
+#logo-dl {
+    padding-bottom: 5%;
+    padding-top: 0;
+    height: auto;
+    width: 100px;
+}
